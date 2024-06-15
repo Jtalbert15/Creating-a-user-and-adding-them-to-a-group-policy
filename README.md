@@ -1,14 +1,10 @@
 # Creating-a-user-and-adding-them-to-a-group-policy
-In this Lab I will create a user to our Domain and add them to a group policy.
 
-Prereqs
-1) https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s
-2) https://github.com/Jtalbert15/Setting-up-Active-Directory-on-our-Windows-Server-2019
-3) https://github.com/Jtalbert15/Adding-A-computer-to-our-domain
+<h1>Summary</h1>
 
-Now we can get started
+In this lab we will create a user using Active Directory Users and Computers. We will then give that user administrative permissions using Group Policy  
 
-Step 1) Open up your Windows Server 2019 Machine and log in
+<h1>Step 1) Creating a User with Active Directory </h1>
 
 <img width="622" alt="Screenshot 2024-05-20 at 9 45 24 AM" src="https://github.com/Jtalbert15/Creating-a-user-and-adding-them-to-a-group-policy/assets/66844406/9286a5b9-d949-48d9-b87c-8c3bfd9adb5c">
 
@@ -62,7 +58,7 @@ And there we are. Congratulations you added a user to the domain!
 
 Before we log into our account lets add our user to a group policy
 
-Step 2) Adding a user to a group policy
+<h1>Step 2) Adding a user to a group policy</h1>
 
 <img width="635" alt="Screenshot 2024-05-20 at 10 08 58 AM" src="https://github.com/Jtalbert15/Creating-a-user-and-adding-them-to-a-group-policy/assets/66844406/1e006bb5-1a56-4eb0-8271-95873f2c46c9">
 
@@ -98,7 +94,7 @@ Now after double clicking the user and selecting Member Of you should see that o
 
 Now we can sign into our Windows 10 VM with our login credentials we gave our user!
 
-Step 3) with your Server VM still running boot up the windows 10 VM
+<h1>Step 3) Logging in with our new user</h1>
 
 <img width="634" alt="Screenshot 2024-05-20 at 10 22 21 AM" src="https://github.com/Jtalbert15/Creating-a-user-and-adding-them-to-a-group-policy/assets/66844406/dc580268-8328-40c5-afa1-5a862f0f4ac0">
 
